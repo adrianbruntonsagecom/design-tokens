@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "name": {
+      "value": "Dashboard Light-Mode Token Set",
+      "type": "other"
+    },
+    "public": {
+      "value": "true",
+      "type": "other"
+    }
+  },
+  "background": {
+    "surface": {
+      "value": "{origin-colors (reference only).yang.100}",
+      "type": "color"
+    },
+    "neutral": {
+      "value": "{origin-colors (reference only).yin.010}",
+      "type": "color"
+    }
+  },
+  "text": {
+    "primary": {
+      "value": "{origin-colors (reference only).yin.090}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{originNEW.colors.yin.055}",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "{originNEW.colors.yang.100}",
+      "type": "color"
+    }
+  },
+  "callout": {
+    "value": "{origin-colors (reference only).fuchsia.525}",
+    "type": "color"
+  },
+  "comparative": {
+    "core": {
+      "fill-1": {
+        "value": "{origin-colors (reference only).malachite.525}",
+        "type": "color"
+      },
+      "fill-2": {
+        "value": "{origin-colors (reference only).malachite.825}",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "fill-1": {
+        "value": "{origin-colors (reference only).gray.525}",
+        "type": "color"
+      },
+      "fill-2": {
+        "value": "{origin-colors (reference only).gray.825}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).jade.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).jade.825}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).cherry.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).cherry.825}",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).navy.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).navy.825}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).terra.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).terra.825}",
+          "type": "color"
+        }
+      }
+    },
+    "tertiary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).teal.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).teal.825}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).amber.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).amber.825}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "divergent": {
+    "primary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).jade.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).jade.675}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).jade.825}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).cherry.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).cherry.675}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).cherry.825}",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).navy.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).navy.675}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).navy.825}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).terra.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).terra.675}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).terra.825}",
+          "type": "color"
+        }
+      }
+    },
+    "tertiary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).teal.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).teal.675}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).teal.825}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).amber.525}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).amber.675}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).amber.825}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "gap": {
+    "core": {
+      "border": {
+        "value": "{origin-colors (reference only).malachite.600}",
+        "type": "color"
+      },
+      "fill-1": {
+        "value": "{origin-colors (reference only).malachite.600}",
+        "type": "color"
+      },
+      "fill-2": {
+        "value": "{origin-colors (reference only).malachite.150}",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "border": {
+        "value": "{origin-colors (reference only).gray.600}",
+        "type": "color"
+      },
+      "fill-1": {
+        "value": "{origin-colors (reference only).gray.600}",
+        "type": "color"
+      },
+      "fill-2": {
+        "value": "{origin-colors (reference only).gray.150}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "positive": {
+        "border": {
+          "value": "{origin-colors (reference only).jade.600}",
+          "type": "color"
+        },
+        "fill-1": {
+          "value": "{origin-colors (reference only).jade.600}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).jade.150}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "border": {
+          "value": "{origin-colors (reference only).cherry.600}",
+          "type": "color"
+        },
+        "fill-1": {
+          "value": "{origin-colors (reference only).cherry.600}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).cherry.150}",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "positive": {
+        "border": {
+          "value": "{origin-colors (reference only).navy.600}",
+          "type": "color"
+        },
+        "fill-1": {
+          "value": "{origin-colors (reference only).navy.600}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).navy.150}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "border": {
+          "value": "{origin-colors (reference only).terra.600}",
+          "type": "color"
+        },
+        "fill-1": {
+          "value": "{origin-colors (reference only).terra.600}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).terra.150}",
+          "type": "color"
+        }
+      }
+    },
+    "tertiary": {
+      "positive": {
+        "border": {
+          "value": "{origin-colors (reference only).teal.600}",
+          "type": "color"
+        },
+        "fill-1": {
+          "value": "{origin-colors (reference only).teal.600}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).teal.150}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "border": {
+          "value": "{origin-colors (reference only).amber.600}",
+          "type": "color"
+        },
+        "fill-1": {
+          "value": "{origin-colors (reference only).amber.600}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).amber.150}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "progressive": {
+    "positive": {
+      "border": {
+        "value": "{origin-colors (reference only).jade.900}",
+        "type": "color"
+      },
+      "fill": {
+        "value": "{origin-colors (reference only).jade.525}",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "border": {
+        "value": "{origin-colors (reference only).navy.900}",
+        "type": "color"
+      },
+      "fill": {
+        "value": "{origin-colors (reference only).navy.525}",
+        "type": "color"
+      }
+    },
+    "negative": {
+      "border": {
+        "value": "{origin-colors (reference only).cherry.900}",
+        "type": "color"
+      },
+      "fill": {
+        "value": "{origin-colors (reference only).cherry.525}",
+        "type": "color"
+      }
+    }
+  },
+  "qualitative": {
+    "fill-1": {
+      "value": "{origin-colors (reference only).jade.750}",
+      "type": "color"
+    },
+    "fill-2": {
+      "value": "{origin-colors (reference only).navy.525}",
+      "type": "color"
+    },
+    "fill-3": {
+      "value": "{origin-colors (reference only).cherry.750}",
+      "type": "color"
+    },
+    "fill-4": {
+      "value": "{origin-colors (reference only).terra.525}",
+      "type": "color"
+    },
+    "fill-5": {
+      "value": "{origin-colors (reference only).gray.525}",
+      "type": "color"
+    }
+  },
+  "sequential": {
+    "core": {
+      "fill-1": {
+        "value": "{origin-colors (reference only).malachite.900}",
+        "type": "color"
+      },
+      "fill-2": {
+        "value": "{origin-colors (reference only).malachite.825}",
+        "type": "color"
+      },
+      "fill-3": {
+        "value": "{origin-colors (reference only).malachite.750}",
+        "type": "color"
+      },
+      "fill-4": {
+        "value": "{origin-colors (reference only).malachite.675}",
+        "type": "color"
+      },
+      "fill-5": {
+        "value": "{origin-colors (reference only).malachite.600}",
+        "type": "color"
+      },
+      "fill-6": {
+        "value": "{origin-colors (reference only).malachite.525}",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "fill-1": {
+        "value": "{origin-colors (reference only).gray.900}",
+        "type": "color"
+      },
+      "fill-2": {
+        "value": "{origin-colors (reference only).gray.825}",
+        "type": "color"
+      },
+      "fill-3": {
+        "value": "{origin-colors (reference only).gray.750}",
+        "type": "color"
+      },
+      "fill-4": {
+        "value": "{origin-colors (reference only).gray.675}",
+        "type": "color"
+      },
+      "fill-5": {
+        "value": "{origin-colors (reference only).gray.600}",
+        "type": "color"
+      },
+      "fill-6": {
+        "value": "{origin-colors (reference only).gray.525}",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).jade.900}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).jade.825}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).jade.750}",
+          "type": "color"
+        },
+        "fill-4": {
+          "value": "{origin-colors (reference only).jade.675}",
+          "type": "color"
+        },
+        "fill-5": {
+          "value": "{origin-colors (reference only).jade.600}",
+          "type": "color"
+        },
+        "fill-6": {
+          "value": "{origin-colors (reference only).jade.525}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).cherry.900}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).cherry.825}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).cherry.750}",
+          "type": "color"
+        },
+        "fill-4": {
+          "value": "{origin-colors (reference only).cherry.675}",
+          "type": "color"
+        },
+        "fill-5": {
+          "value": "{origin-colors (reference only).cherry.600}",
+          "type": "color"
+        },
+        "fill-6": {
+          "value": "{origin-colors (reference only).cherry.525}",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).navy.900}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).navy.825}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).navy.750}",
+          "type": "color"
+        },
+        "fill-4": {
+          "value": "{origin-colors (reference only).navy.675}",
+          "type": "color"
+        },
+        "fill-5": {
+          "value": "{origin-colors (reference only).navy.600}",
+          "type": "color"
+        },
+        "fill-6": {
+          "value": "{origin-colors (reference only).navy.525}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).terra.900}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).terra.825}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).terra.750}",
+          "type": "color"
+        },
+        "fill-4": {
+          "value": "{origin-colors (reference only).terra.675}",
+          "type": "color"
+        },
+        "fill-5": {
+          "value": "{origin-colors (reference only).terra.600}",
+          "type": "color"
+        },
+        "fill-6": {
+          "value": "{origin-colors (reference only).terra.525}",
+          "type": "color"
+        }
+      }
+    },
+    "tertiary": {
+      "positive": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).teal.900}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).teal.825}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).teal.750}",
+          "type": "color"
+        },
+        "fill-4": {
+          "value": "{origin-colors (reference only).teal.675}",
+          "type": "color"
+        },
+        "fill-5": {
+          "value": "{origin-colors (reference only).teal.600}",
+          "type": "color"
+        },
+        "fill-6": {
+          "value": "{origin-colors (reference only).teal.525}",
+          "type": "color"
+        }
+      },
+      "negative": {
+        "fill-1": {
+          "value": "{origin-colors (reference only).amber.900}",
+          "type": "color"
+        },
+        "fill-2": {
+          "value": "{origin-colors (reference only).amber.825}",
+          "type": "color"
+        },
+        "fill-3": {
+          "value": "{origin-colors (reference only).amber.750}",
+          "type": "color"
+        },
+        "fill-4": {
+          "value": "{origin-colors (reference only).amber.675}",
+          "type": "color"
+        },
+        "fill-5": {
+          "value": "{origin-colors (reference only).amber.600}",
+          "type": "color"
+        },
+        "fill-6": {
+          "value": "{origin-colors (reference only).amber.525}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

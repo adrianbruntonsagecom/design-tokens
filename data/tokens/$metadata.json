@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "origin",
+    "base",
+    "originNEW",
+    "midNEW/color/light",
+    "midNEW/color/dark TO DELETE",
+    "targetedNEW",
+    "dashboard/lightMode",
+    "dashboard/darkMode"
+  ]
+}
