@@ -1,5 +1,6 @@
 name: Lint
 on:
+  push:
   pull_request:
     branches:
       - master
@@ -32,7 +33,7 @@ jobs:
 
       - name: Build project
         run: npm run build
-        
+
       - name: Download W3C Validator (vnu.jar)
         run: wget https://github.com/validator/validator/releases/download/latest/vnu.jar
 
